@@ -1,0 +1,78 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="club.psarda.dynamicinstantcircumengine.UI.Fragments.StatsFocus.ResultsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:id="@+id/results_total_dice"
+            style="@style/SettingsInputLayout"
+            >
+
+            <TextView
+                android:id="@+id/results_total_dice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/NormalText"
+                android:text="@string/results_total_dice_title"
+                android:layout_marginStart="30sp"
+                />
+
+            <TextView
+                android:id="@+id/results_total_dice_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SubtitleText"
+                android:text="@string/results_total_dice_subtitle"
+                android:layout_below="@id/results_total_dice_title"
+                android:layout_marginStart="30sp"
+                android:layout_marginEnd="100sp"/>
+
+            <TextView
+                android:id="@+id/results_total_dice_count_sides"
+                style="@style/ResultDisplayText"
+                />
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/result_targets"
+            android:layout_below="@id/results_total_dice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            />
+
+        <Button
+            android:id="@+id/result_keep_rolling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30sp"
+            android:layout_marginBottom="30sp"
+            android:text="@string/results_keep_rolling"
+            />
+
+        <Button
+            android:id="@+id/result_view_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonTheme"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="30sp"
+            android:layout_marginEnd="30sp"
+            android:text="@string/results_view_stats"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10sp"
+    android:paddingTop="10sp"
+    >
+
+    <TextView
+        android:id="@+id/input_title"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        style="@style/NormalText"
+        android:layout_toEndOf="@id/input_reroll_title"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/input_subtitle"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        style="@style/SubtitleText"
+        android:layout_toEndOf="@id/input_reroll_title"
+        android:layout_marginStart="10sp"
+        android:layout_below="@id/input_title"
+        />
+
+    <Button
+        android:id="@+id/input_minus"
+        style="@style/AddButton"
+        android:text="@string/input_minus"
+        android:layout_toStartOf="@id/input"
+        android:layout_marginEnd="2sp"
+        />
+
+    <EditText
+        android:id="@+id/input"
+        style="@style/EditTextSettingsTheme"
+        android:inputType="number"
+        android:layout_toStartOf="@id/input_plus"
+        android:layout_marginEnd="2sp"
+        />
+
+    <Button
+        android:id="@+id/input_plus"
+        style="@style/AddButton"
+        android:text="@string/input_plus"
+        android:layout_marginEnd="5sp"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

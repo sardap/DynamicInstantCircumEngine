@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipe_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        >
+
+        <LinearLayout
+            android:id="@+id/bottom_wrapper"
+            android:layout_width="160dp"
+            android:weightSum="1"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/input_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@android:drawable/ic_delete"
+                android:background="@color/DividerColor"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                style="@style/SettingsInputLayout"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/reroll_input_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/input_reroll_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/input_reroll"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="5sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginBottom="5sp"
+                        />
+                    
+                    <CheckBox
+                        android:id="@+id/checkbox_input"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/input_reroll_title"
+                        android:layout_centerHorizontal="true"
+                        />
+                    
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/input_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/NormalText"
+                    android:layout_toEndOf="@id/reroll_input_layout"
+                    android:layout_marginStart="10sp"
+                    />
+
+                <TextView
+                    android:id="@+id/input_subtitle"
+                    android:layout_width="170sp"
+                    android:layout_height="wrap_content"
+                    style="@style/SubtitleText"
+                    android:layout_toEndOf="@id/reroll_input_layout"
+                    android:layout_marginStart="10sp"
+                    android:layout_below="@id/input_title"
+                    />
+
+                <Button
+                    android:id="@+id/input_minus"
+                    style="@style/AddButton"
+                    android:text="@string/input_minus"
+                    android:layout_toStartOf="@id/input"
+                    android:layout_marginEnd="2sp"
+                    />
+
+                <EditText
+                    android:id="@+id/input"
+                    style="@style/EditTextSettingsTheme"
+                    android:layout_toStartOf="@id/input_plus"
+                    android:layout_marginEnd="2sp"
+                    />
+
+                <Button
+                    android:id="@+id/input_plus"
+                    style="@style/AddButton"
+                    android:text="@string/input_plus"
+                    android:layout_marginEnd="5sp"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.daimajia.swipe.SwipeLayout>
+
+</LinearLayout>

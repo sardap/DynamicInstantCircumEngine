@@ -1,0 +1,173 @@
+<resources>
+
+    <string name="app_name">DynamicInstantCircumEngine</string>
+    <string name="app_name_sign_in">Dynamic Instant Circum Engine</string>
+    <string name="signed_out">You are signed out of this stupid app</string>
+    <string name="sign_in_deitals">Yes you can sign into the app but you don\'t need to so don\'t worry</string>
+    <string name="loading">Loading…</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="annon_sign_in">You are signed as anno</string>
+    <string name="could_not_connect_to_google">Could not connect to google check your net mate</string>
+    <string name="stats_synced">Stats saved %s</string>
+
+    <string-array name="fragments_selector">
+        <item>Dice</item>
+        <item>All Stats</item>
+        <item>Global Stats</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="loading_settings">Settings Loading</string>
+    <string name="add_target">Add Target</string>
+    <string name="export_csv_title">.CSV</string>
+    <string name="save_title">Save</string>
+    <string name="sort">Sort</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_avg">Average</string>
+    <string name="sort_date">Date</string>
+    <string name="sort_sides">Sides</string>
+    <string name="sort_amount">Amount</string>
+
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+
+    <string name="error_empty_field">Required input is empty</string>
+    <string name="error_must_be_number_field">Input must be numeric</string>
+    <string name="error_invalid_target_field">Target must only be Number and + or -</string>
+    <string name="error_too_many_of_x">Cannot have more than one xxx</string>
+    <string name="error_target_cannot_be_higher_than_sides">Target cannot be Higher than sides </string>
+    <string name="error_reroll_must_be_number">Reroll must be number</string>
+    <string name="error_single_amount">Can only contain a single %s</string>
+    <string name="error_both_inputed">Must be %s OR %s Not both</string>
+    <string name="error_must_be_greater_than_x">Must be greater than %s</string>
+    <string name="error_cannot_create_file">File could not be created</string>
+    <string name="error_cannot_delete_last_field">Cannot delete last entity</string>
+
+    <string name="roll_fragment_title">Dice</string>
+    <string name="result_fragmnet_title">Result</string>
+    <string name="stats_fragmnet_selection_title">All Stats</string>
+    <string name="stats_focus_fragmnet_title">Stats</string>
+    <string name="global_stats_fragment_title">Global Stats</string>
+
+    <string name="roll_button_title">Roll</string>
+    <string name="roll_rolling_text">Rolling...</string>
+
+    <string name="input_reroll">Reroll 1?</string>
+    <string name="input_minus">-</string>
+    <string name="input_plus">+</string>
+
+    <string name="sides_input_title">Sides</string>
+    <string name="sides_input_subtitle">Amount Of Sides the Dice Has</string>
+    <string name="sides_input_hint">6</string>
+
+    <string name="amount_input_title">Amount</string>
+    <string name="amount_input_subtitle">Amount of dice to Roll</string>
+    <string name="amount_input_hint">150</string>
+
+    <string name="defualt_data_refreshed">Default Data has been refreshed</string>
+
+    <string name="target_title">%s Target</string>
+    <string name="target_subTitle">The target for each dice to be successful</string>
+
+    <string name="results_total_dice_title">Total Dice</string>
+    <string name="results_total_dice_subtitle">The Total number of dice rolled and the sides of each dice </string>
+
+    <string name="results_target_title">%s target %s</string>
+    <string name="results_successful_title">Rolls succeed</string>
+    <string name="results_failed_title">Rolls failed </string>
+
+    <string name="results_D"> D</string>
+    <string name="results_keep_rolling">Keep on Rolling</string>
+    <string name="results_view_stats">View Stats</string>
+
+    <string name="stats_fragmnet_title">Key Stats</string>
+
+    <string name="stats_save_button">Save</string>
+    <string name="stats_export">Export to Google Sheets</string>
+
+    <string name="stats_name_hint">New Stats</string>
+    <string name="stats_error_empty_name">Name Must be filled</string>
+    <string name="stats_error_comma_in_name">Name Cannot contain ,</string>
+
+    <string name="stats_average_roll_title">Average Roll</string>
+    <string name="stats_average_roll_subtitle">Average Roll for each target</string>
+
+    <string name="stats_average_good_roll_title">Average Good?</string>
+    <string name="stats_average_good_roll_subtitle">Was the Average Above or Below Average?</string>
+
+    <string name="stats_target_title_percentage">Percentage of %s Target</string>
+    <string name="stats_target_subtitle_percentage">Percentage of rolls that hit the target</string>
+
+    <string name="stats_target_title_average">Average Roll of %s Target</string>
+    <string name="stats_target_subtitle_average">Average roll of the group</string>
+
+    <string name="stats_target_reroll_percentage_title">Amount of Rerolls for %s Target</string>
+    <string name="stats_target_reroll_percentage_subtitle">the amount of dice that were rerolled</string>
+
+    <string name="stats_focus_roll_title">Roll Data</string>
+    <string name="stats_focus_roll_grid_title">%s Roll</string>
+    <string name="stats_focus_roll_grid_spinner">%s Target</string>
+
+    <string name="stats_focus_average_title">KeyStats</string>
+    <string name="stats_focus_average_average_title">Average for target xxx</string>
+    <string name="stats_focus_average_average_subtitle">The average for target xxx</string>
+
+    <string name="stats_focus_chart_title">Charts</string>
+
+    <string name="stats_focus_pie_chart_title">Rolls</string>
+
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_defualt_sides_title">Default Sides</string>
+    <string name="settings_defualt_sides_subTitle">Number of sides on the dice</string>
+
+    <string name="settings_defualt_number_of_dice_title">Default Num of dice</string>
+    <string name="settings_defualt_number_of_dice_subtitle">number of dice that will be rolled</string>
+
+    <string name="settings_defualt_target_title">Default %s Target</string>
+    <string name="settings_defualt_target_subtitle">number which the target will need to reach</string>
+
+    <string name="settings_shake_seek_bar_title">Shake threshold</string>
+    <string name="settings_shake_seek_bar_min">Min</string>
+    <string name="settings_shake_seek_bar_max">Max</string>
+
+    <string name="settings_must_sign_in">Must sign into google to change settings</string>
+
+    <string name="global_stats_waitnig_for_input">Loading Stats Data</string>
+    <string name="global_stats_sides_input_title">Sides</string>
+    <string name="global_stats_sides_input_sub_title">Filters the global stats by the inputted side</string>
+
+    <string name="global_stats_avg_title">Average Roll</string>
+    <string name="global_stats_avg_sub_title">The average roll for %s sided dice in the world</string>
+
+    <string name="global_stats_number_of_dice_title">Total Dice Rolled</string>
+    <string name="global_stats_number_of_dice_sub_title">Total number of dice rolled in the world in this garbage app</string>
+
+    <string name="global_stats_number_of_stats_data_title">Total Number of Stats</string>
+    <string name="global_stats_number_of_stats_data_sub_title">The total number of stats saved for the sides</string>
+
+    <string name="global_stats_no_stats_exist">No Stats exist for that many sides</string>
+
+    <string name="save_stats_dialog_title">Save new stats</string>
+
+    <string name="stats_export_first_row">Name, Sides, Number of Dice, Creation Date, Average Roll, Seed</string>
+
+    <string name="stats_export_secound_row">Target, Position, Roll</string>
+
+    <string name="stats_selection_laydown_text">Sides %d, Amount %d, creation, Date %s</string>
+
+    <string-array name="stats_chart_types">
+        <item>Line</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_sheets_test">GoogleSheetsTest</string>
+
+    <string name="title_activity_sign_in_activty">SignInActivty</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

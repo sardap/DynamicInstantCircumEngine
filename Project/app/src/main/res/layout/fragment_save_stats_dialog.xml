@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="club.psarda.dynamicinstantcircumengine.UI.Fragments.StatsFocus.SaveStatsDialogFragmnet">
+
+    <RelativeLayout
+        android:padding="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/save_stats_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_stats_dialog_title"
+            style="@style/NormalText"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_below="@id/save_stats_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stats_input"
+            android:layout_marginTop="15sp"
+            android:layout_marginBottom="15sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginStart="30sp"
+            android:textSize="15sp"
+            android:hint="@string/stats_name_hint"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/stats_save_dialog_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stats_input"
+            style="@style/ButtonTheme"
+            android:text="@string/save_title"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

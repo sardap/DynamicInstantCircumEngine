@@ -1,0 +1,114 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryColorDark</item>
+        <item name="colorAccent">@color/AccentColor</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="actionMenuTextColor">@color/PrimaryColorText</item>
+        <item name="titleTextColor">@android:color/white</item>
+    </style>
+
+    <style name="PrimaryText">
+        <item name="android:textColor">@color/PrimaryColorText</item>
+        <item name="android:textSize">25sp</item>
+
+    </style>
+
+    <style name="NormalText">
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="NormalHeadingText" parent="NormalText">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="SubtitleText">
+        <item name="android:textColor">@color/SecondaryTextColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FragSpinnerTheme" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:padding">5sp</item>
+    </style>
+
+    <style name="ButtonTheme" parent="android:Widget.Button">
+        <item name="android:padding">5sp</item>
+        <item name="android:textColor">@color/PrimaryColorText</item>
+        <item name="android:background">@drawable/primary_color_button</item>
+    </style>
+
+    <style name="TableRowTheme">
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="EditTextTheme" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/EditTextColor</item>
+        <item name="android:background">@color/EditTextBackground</item>
+    </style>
+
+    <style name="EditTextSettingsTheme" parent="EditTextTheme">
+        <item name="android:layout_width">50sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+
+    <style name="EditTextSettingsThemeToUpdate" parent="EditTextTheme">
+        <item name="android:layout_width">50sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginRight">10sp</item>
+    </style>
+
+
+    <style name="ResultDisplayText" parent="android:Widget.TextView">
+        <item name="android:layout_width">90sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="SettingsInputLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8sp</item>
+        <item name="android:paddingBottom">8sp</item>
+    </style>
+
+    <style name="AddButton" parent="ButtonTheme">
+        <item name="android:layout_width">30sp</item>
+        <item name="android:layout_height">30sp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="IncrementButton" parent="android:Widget.Button">
+        <item name="android:width">30sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

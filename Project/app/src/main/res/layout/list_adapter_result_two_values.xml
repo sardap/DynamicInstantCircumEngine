@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        style="@style/SettingsInputLayout"
+        >
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id = "@+id/RHE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    style="@style/NormalHeadingText"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                >
+
+                <TextView
+                    android:id="@+id/left_result_title"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textAlignment="center"
+                    style="@style/NormalText"
+                    />
+
+                <TextView
+                    android:id="@+id/right_result_title"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textAlignment="center"
+                    style="@style/NormalText"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                >
+
+                <TextView
+                    android:id="@+id/left_result"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textAlignment="center"
+                    style="@style/ResultDisplayText"
+                    />
+
+                <TextView
+                    android:id="@+id/right_result"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:textAlignment="center"
+                    style="@style/ResultDisplayText"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

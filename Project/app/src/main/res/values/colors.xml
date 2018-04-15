@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#F44336</color>
+    <color name="PrimaryColorDark">#D32F2F</color>
+    <color name="PrimaryColorLight">#FFCDD2</color>
+    <color name="AccentColor">#FF5252</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="PrimaryColorText">#FFFFFF</color>
+    <color name="SecondaryTextColor">#757575</color>
+    <color name="DividerColor">#BDBDBD</color>
+    <color name="EditTextBackground">#f3f3f3</color>
+    <color name="EditTextColor">#7b8d93</color>
+    <color name="Background">#FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

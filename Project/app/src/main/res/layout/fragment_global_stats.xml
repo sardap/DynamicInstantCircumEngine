@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="club.psarda.dynamicinstantcircumengine.UI.Fragments.GlobalStatsFramgnet">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <include
+            android:id="@+id/global_stats_sides_input"
+            layout="@layout/list_adaper_number_input"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/global_stats_list"
+            android:layout_below="@id/global_stats_sides_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            android:scrollbars="vertical"
+            />
+
+        <ProgressBar
+            android:id="@+id/global_stats_stats_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/global_stats_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/global_stats_stats_progress"
+            android:layout_centerHorizontal="true"
+            android:text="@string/global_stats_waitnig_for_input"
+            />
+        
+    </RelativeLayout>
+
+</FrameLayout>
